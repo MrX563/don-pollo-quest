@@ -1,0 +1,101 @@
+:root {--fontPON:"Ponomar",serif;
+--fontDOP:"Pacifico",serif;}
+body {
+    background-color: #b9aadc;
+}
+.head {
+    font-family: var(--fontPON);
+    color: red;  
+    background-color: rgb(156, 236, 28);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.head__text {
+    font-size: 6px;
+    margin-top: 8%;
+    left: 45px
+}
+.у {
+color: violet;
+font-family: var(--fontDOP);
+}
+.уу {
+background-color: brown;
+}
+.guacha {
+background-color: orange;
+}
+.dopguacha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aquamarine;
+}
+.mainpart__img {
+    height: 1750px;
+    width: 1750px;
+    margin-top: 1024px;
+}
+.mainpart_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.salam {
+    color: green;
+}
+.congrats {
+    font-family: var(--fontPON);
+    color: red;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btntoi {
+    background-color: rgb(105, 176, 19);
+    border-radius: 24px;
+    border: none;
+    margin-top: 250px;
+    display: flex;
+    font-size: 5px;
+    height: 10px;
+    width: 38px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    transition: transform 30s;
+    display: flex;
+}
+.btntoi:hover {
+    transform: scale(50);
+}
+.vhod {
+    border: none;
+    margin-top: 250px;
+    display: flex;
+    font-size: 5px;
+    height: 90px;
+    width: 90px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    transition: transform 2s;
+    display: flex;
+}
+.vhod:hover {
+    transform: scale(5);
+}
+.vhodik {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video {
+    margin-top: 308px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

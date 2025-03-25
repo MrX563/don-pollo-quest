@@ -1,0 +1,25 @@
+:root {--fontSALSA:"Roboto Slab"}
+.document {
+    border: 2px solid black;
+    background-color: antiquewhite;
+    margin: 52px;
+}
+.document__title {
+    border: 2px solid black;
+    font-family: var(--fontSALSA);
+}
+.document__title__text {
+    color: rgb(113, 25, 25);
+}
+.btn {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 32;
+}
+.nugger__war {
+    background-color: rgb(74, 0, 0);
+}
+.texxt {
+    color: rgb(112, 143, 169);
+}

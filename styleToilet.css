@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(132, 132, 132);
+}
+.toilet {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.back {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

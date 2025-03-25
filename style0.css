@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+}
+.top {
+    color: red;
+    font-size: 56px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.middle {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-size: 32px;
+}
+.continue {
+    color: rgb(172, 172, 172);
+    border:  rgb(43, 43, 43) solid;
+    height: 36px;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.continue__text {
+    color: black;
+}
+.top__secret {
+    background-color: rgb(39, 39, 39);
+    border-radius: 24px;
+    border: none;
+    margin-top: 250px;
+    display: flex;
+    font-size: 5px;
+    height: 10px;
+    width: 38px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    transition: transform 060s;
+    display: flex;
+}
+.top__secret :hover {
+    scale: (72);
+}
